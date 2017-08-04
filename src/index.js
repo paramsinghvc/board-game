@@ -1,7 +1,7 @@
-const sayHello = () => {
-    /*eslint-disable no-console */
-    console.log("Allo! We are all set!");
-    console.log("Arrow functions are working");
-};
+import {
+    Board
+} from './board.js';
 
-sayHello();
+const el = document.getElementById('board-holder');
+const board = new Board(el);
+board.init();

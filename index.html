@@ -1,15 +1,43 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ES6 Boilerplate</title>
+    <meta name="description" content="Board Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Game</title>
+    <link rel="shortcut icon" type="image/ico" href="/v2/assets/img/od.ico" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Board Game">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="OneDirect">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+    <meta name="theme-color" content="#2F3BA2">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="" href="styles.css">
 </head>
-<body>
-    <h1>ES6 Boilerplate</h1>
-    <p>Check console for details</p>
-    <div id="main"></div>
 
+<body>
+    <header>
+        <h1>Multi Level Board Game</h1>
+    </header>
+    <main class="main-content">
+        <section id="board-holder">
+        </section>
+        <section class="level-info">
+            <p class="level-num">Level: <span id="level-num"></span></p>
+            <p class="level-num">Level Time: <span id="level-time"></span></p>
+            <p class="level-num">Passing Score: <span id="level-score"></span></p>
+        </section>
+        <section id="level-result">
+
+        </section>
+    </main>
     <script type="text/javascript" src="dist/bundle.js"></script>
 </body>
+
 </html>
